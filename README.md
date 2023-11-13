@@ -5,5 +5,5 @@ Contributors:
 - Omer Sonmez
 - Maxwell Wysinger
 - Jason Opoku-Mensah
-- Zain 
+- Zain Faraz
 
