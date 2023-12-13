@@ -12,8 +12,8 @@ The brick breaker game will be designed prior to development and writing of the 
 Development:
 Development of the game and its components will be coded in Python.
 # Contributors:
-- Omer Sonmez 
-- Maxwell Wysinger 
-- Jason Opoku-Mensah
-- Zain Faraz
+- Omer Sonmez - Project Manager
+- Maxwell Wysinger - Product Manager
+- Jason Opoku-Mensah - QA Analyst
+- Zain Faraz - UI/UX Designer
 
