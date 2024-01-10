@@ -20,3 +20,4 @@ Development of the game and its components will be coded in Python.
 Release notes: 
 - we changed color variables
 - organization
+1/10/24
