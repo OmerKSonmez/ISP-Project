@@ -17,6 +17,11 @@ Development of the game and its components will be coded in Python.
 - Jason Opoku-Mensah - QA Analyst
 - Zain Faraz - UI/UX Designer
 
+# Tools:
+- Visual Studio
+- Python
+- ChatGPT
+
 # Release notes: 
  1/10/24
 - we changed color variables
