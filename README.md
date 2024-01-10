@@ -18,6 +18,7 @@ Development of the game and its components will be coded in Python.
 - Zain Faraz - UI/UX Designer
 
 # Release notes: 
+- 1/10/24
 - we changed color variables
 - organization
-- 1/10/24
+
