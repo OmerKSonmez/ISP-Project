@@ -1,4 +1,4 @@
-n# ISP-Project - Brick Breaker Game
+# ISP-Project - Brick Breaker Game
 Our ISP Project goal is to make a game where the player's objective is to move a bed of brick so that a free-moving ball hits and "breaks" as many bricks as possible.
 # Vision Statement
 Our vision is to develop a game that serves as a form of entertainment. This will be done in these stages and restrictions.
