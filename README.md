@@ -12,7 +12,7 @@ The brick breaker game will be designed prior to development and writing of the 
 Development:
 Development of the game and its components will be coded in Python.
 # Contributors:
-- Omer Sonmez - Product Manager
+- Omer Sonmez - Product Manager https://codermerlin.academy/users/omer-sonmez/Digital%20Portfolio/CS-II/index.html 
 - Maxwell Wysinger - Project Manager
 - Jason Opoku-Mensah - QA Analyst
 - Zain Faraz - UI/UX Designer
