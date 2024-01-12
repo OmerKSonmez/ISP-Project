@@ -21,4 +21,7 @@ Development of the game and its components will be coded in Python.
 - We changed color variables
 - Organization
 # Release Notes 1/12/24
+- Redownloaded Visual Studio after moving seats and changing computers
+- Added comments to some aspects of the project to update on progress
+- Received check up and discussed with Mrs. Jang
 
