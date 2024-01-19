@@ -24,4 +24,8 @@ Development of the game and its components will be coded in Python.
 - Redownloaded Visual Studio after moving seats and changing computers
 - Added comments to some aspects of the project to update on progress
 - Received check up and discussed with Mrs. Jang
+  # Release Notes 1/17/24 and 1/19/24
+  -Added more to our game code; changed some color distribution and added lives 
+  -Updated old tasks and added new ones
+  
 
