@@ -1,0 +1,65 @@
+Foundational Rules:
+
+The player controls a paddle horizontally
+Player starts the game with 3 lives
+The player loses a game if his live total decreases to 0
+A life is removed every time the player misses the ball
+
+Ball:
+
+The game features a bouncing ball that moves around the screen.
+The ball can bounce off walls, the paddle, and bricks.
+If the ball passes the paddle and reaches the bottom of the screen, the player loses a life.
+
+Bricks:
+
+Bricks are arranged in rows at the top of the screen.
+Each brick has its own color, randomly generated at the start of each game.
+Bricks can be destroyed by the ball hitting them.
+
+Gameplay:
+
+Start of the Game:
+
+The game begins with a ball positioned on the paddle.
+Bricks are randomly generated and arranged at the top of the screen.
+
+Ball Movement:
+
+The ball starts moving automatically at the beginning of the game.
+The player must use the paddle to prevent the ball from reaching the bottom of the screen.
+
+Paddle Control:
+
+The player controls the paddle using the left and right arrow keys.
+The paddle moves horizontally to catch and bounce the ball.
+Brick Destruction:
+
+When the ball hits a brick, the brick is destroyed, and the player earns points.
+Some bricks may require multiple hits to be destroyed.
+Bricks have different point values based on their colors:
+
+Red = 3 points
+Blue = 2 points
+White = 1 points
+
+Scoring:
+
+Players earn points for each brick they destroy.
+The score is displayed on the screen.
+Additional points may be awarded for special achievements, such as clearing a row of bricks or completing a level.
+Lives:
+
+The player starts with a certain number of lives.
+Losing a life occurs when the ball passes the paddle and reaches the bottom of the screen.
+The game continues until the player runs out of lives.
+
+Game Over:
+
+The game is over when the player runs out of lives.
+The final score is displayed along with an option to restart the game.
+
+How to Win the Game:
+
+The player wins the game by successfully destroying all the bricks on the screen.
+Winning may unlock new levels with different arrangements of bricks.
