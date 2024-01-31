@@ -28,7 +28,7 @@ Development of the game and its components will be coded in Python.
 - Added more to our game code; changed some color distribution and added lives 
 - Updated old tasks and added new ones
 # Release Notes 1/19/24 - 1/31/2024
-- Created a background to the game
+- Created a background for the game
 - Created a "You Win" and "You Loose" screen
 - Began preparing and planning for the addition of music
 - Had many group meetings both as a group and with Mrs. Jang
