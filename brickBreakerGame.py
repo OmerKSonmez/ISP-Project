@@ -28,6 +28,37 @@ pygame.display.set_caption("Brick Breaker")
 # Clock to control the frame rate
 clock = pygame.time.Clock()
 
+def restart_game():
+    global paddle, ball, ball_speed, bricks, score, lives, game_over
+    paddle = pygame.Rect((WIDTH - PADDLE_WIDTH) // 2, HEIGHT - PADDLE_HEIGHT - 10, PADDLE_WIDTH, PADDLE_HEIGHT)
+    ball = pygame.Rect(WIDTH // 2 - BALL_RADIUS, HEIGHT // 2 - BALL_RADIUS, BALL_RADIUS * 2, BALL_RADIUS * 2)
+    ball_speed = [2, 2]
+
+    colors = [RED, BLUE, GREEN]
+    bricks = []
+    for row in range(5):
+        for col in range(WIDTH // BRICK_WIDTH):
+            brick_color = random.choice(colors)
+            brick = pygame.Rect(col * BRICK_WIDTH, row * BRICK_HEIGHT, BRICK_WIDTH, BRICK_HEIGHT)
+            bricks.append((brick, brick_color))
+
+    score = 0
+    lives = LIVES
+    game_over = False
+
+# Main game loop
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_r and game_over:  # Restart game with 'R' key
+                restart_game()
+
+    if not game_over:
+        # ... (remaining code remains unchanged)
+
 # Function to display the menu
 def show_menu():
     menu_font = pygame.font.Font(None, 48)
