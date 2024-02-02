@@ -145,11 +145,11 @@ while True:
             pygame.draw.rect(screen, brick_color, brick)
 
         # Display score and lives in yellow
-        font = pygame.font.Font(None, 36)
-        score_text = font.render(f"Score: {score}", True, YELLOW)
-        lives_text = font.render(f"Lives: {lives}", True, YELLOW)
-        screen.blit(score_text, (10, 10))
-        screen.blit(lives_text, (WIDTH - 120, 10))
+    font = pygame.font.Font(None, 36)
+    score_text = font.render(f"Score: {score}", True, YELLOW)
+    lives_text = font.render(f"Lives: {lives}", True, YELLOW)
+    screen.blit(score_text, (10, 10))
+    screen.blit(lives_text, (WIDTH - 120, 10))
 
         # Update the display
         pygame.display.flip()
