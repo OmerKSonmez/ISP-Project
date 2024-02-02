@@ -17,7 +17,7 @@ ORANGE = (255, 165, 0)  # Orange ball
 YELLOW = (255, 255, 0)  # Yellow counters
 LIVES = 3
 
-# Load background image
+# Displying background image
 background_image = pygame.image.load("background.jpg")
 background_image = pygame.transform.scale(background_image, (WIDTH, HEIGHT))
 
