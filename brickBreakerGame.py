@@ -112,6 +112,9 @@ for row in range(5):
         brick_color = random.choice(colors)
         brick = pygame.Rect(col * BRICK_WIDTH, row * BRICK_HEIGHT, BRICK_WIDTH, BRICK_HEIGHT)
         bricks.append((brick, brick_color))
+        brick_outer_rect = pygame.Rect(brick.left - 1, brick.top - 1, BRICK_WIDTH + 2, BRICK_HEIGHT + 2)
+        pygame.draw.rect(screen, (150, 150, 150), brick_outer_rect)
+        pygame.draw.rect(screen, brick_color, brick)
 
 # Initialize game variables
 score = 0
@@ -169,11 +172,6 @@ while True:
         screen.blit(background_image, (0, 0))  # Draw background image
         pygame.draw.rect(screen, GREEN, paddle)  # Green paddle
         pygame.draw.circle(screen, ORANGE, ball.center, BALL_RADIUS)  # Orange ball
-
-        for brick, brick_color in bricks:
-            # Draw bricks with a thin gray outline
-            pygame.draw.rect(screen, (169, 169, 169), brick, 1)
-            pygame.draw.rect(screen, brick_color, brick)
 
         # Display score and lives in yellow
     font = pygame.font.Font(None, 36)
