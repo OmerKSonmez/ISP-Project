@@ -39,3 +39,8 @@ Development of the game and its components will be coded in Python.
 - Added commit to tasks
 - Updated game code
 
+# Release Notes 3/22/2024
+- Added more tasks
+- Updated python code
+- Updated visual studio 
+
