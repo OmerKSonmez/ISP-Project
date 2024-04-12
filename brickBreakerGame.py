@@ -15,7 +15,7 @@ RED = (255, 0, 0)
 GREEN = (0, 0, 0)  # Black paddle and bricks
 ORANGE = (255, 165, 0)  # Orange ball
 YELLOW = (255, 255, 0)  # Yellow counters
-LIVES = 3
+LIVES = 1
 
 # Displying background image
 background_image = pygame.image.load("background.jpg")
