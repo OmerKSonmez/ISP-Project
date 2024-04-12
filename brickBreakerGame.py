@@ -21,6 +21,11 @@ LIVES = 1
 background_image = pygame.image.load("background.jpg")
 background_image = pygame.transform.scale(background_image, (WIDTH, HEIGHT))
 
+#Load Sound Effects
+brick_hit_sound = pygame.mixer.Sound("chief-keef-bang-bang.wav")
+paddle_hit_sound = pygame.mixer.Sound("chief-keef-bang-bang.wav")
+wall_hit_sound = pygame.mixer.Sound("chief-keef-bang-bang.wav")
+
 # Create screen
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Brick Breaker")
