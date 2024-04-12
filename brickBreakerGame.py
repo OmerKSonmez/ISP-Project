@@ -12,7 +12,7 @@ PADDLE_WIDTH, PADDLE_HEIGHT = 100, 10
 BRICK_WIDTH, BRICK_HEIGHT = 60, 20
 BLUE = (0, 0, 255)
 RED = (255, 0, 0)
-GREEN = (0, 255, 0)  # Green paddle
+GREEN = (0, 0, 0)  # Black paddle and bricks
 ORANGE = (255, 165, 0)  # Orange ball
 YELLOW = (255, 255, 0)  # Yellow counters
 LIVES = 3
@@ -172,6 +172,12 @@ while True:
         screen.blit(background_image, (0, 0))  # Draw background image
         pygame.draw.rect(screen, GREEN, paddle)  # Green paddle
         pygame.draw.circle(screen, ORANGE, ball.center, BALL_RADIUS)  # Orange ball
+
+      for brick, brick_color in bricks:
+            # Draw bricks with a thin gray outline
+            pygame.draw.rect(screen, brick_color, brick)
+            pygame.draw.rect(screen, (255, 255, 255), brick, 2)
+            
 
         # Display score and lives in yellow
     font = pygame.font.Font(None, 36)
