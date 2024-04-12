@@ -38,9 +38,12 @@ Development of the game and its components will be coded in Python.
 - Added more tasks and stories
 - Added commit to tasks
 - Updated game code
-
 # Release Notes 3/22/2024
 - Added more tasks
 - Updated python code
 - Updated visual studio 
-
+# Release Notes week of 4/1/2024 - 4/12/2024
+- Added white a thick white outline to the bricks for a retro style affect
+- Changed the color of some of the bricks in the game
+- Lowered the amount of lives due to a bug that was found
+- Began to work on adding sound effect to the game
