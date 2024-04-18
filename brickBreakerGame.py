@@ -22,9 +22,9 @@ background_image = pygame.image.load("background.jpg")
 background_image = pygame.transform.scale(background_image, (WIDTH, HEIGHT))
 
 #Load Sound Effects
-brick_hit_sound = pygame.mixer.Sound("chief-keef-bang-bang.wav")
-paddle_hit_sound = pygame.mixer.Sound("chief-keef-bang-bang.wav")
-wall_hit_sound = pygame.mixer.Sound("chief-keef-bang-bang.wav")
+brick_hit_sound = pygame.mixer.Sound("chief-keef-bang.wav")
+paddle_hit_sound = pygame.mixer.Sound("roblox-death.wav")
+wall_hit_sound = pygame.mixer.Sound("pierre.wav")
 
 # Create screen
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
