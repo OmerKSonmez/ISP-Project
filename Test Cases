@@ -1,9 +1,27 @@
-Test Case: Score Tracking:
--
--
--
--
--
-Test Case: Sound Effects
--Create new sound file
--
+Test Case 1: Initial Game Setup
+-Ensure the game initializes correctly.
+-Check if the paddle is positioned at the bottom center of the screen.
+-Verify that the ball is positioned at the center of the screen.
+-Ensure that the bricks are randomly generated and distributed across the screen.
+-Confirm that the score and lives are initialized correctly.
+
+Test Case 2: Paddle Movement
+-Press the left arrow key and verify if the paddle moves to the left.
+-Press the right arrow key and verify if the paddle moves to the right.
+-Press both arrow keys simultaneously and ensure that only one direction movement is applied.
+-Try to move the paddle beyond the screen boundaries and ensure it stops at the edges.
+-Verify that the paddle's position remains unchanged when no arrow keys are pressed.
+
+Test Case 3: Ball Movement and Collisions
+-Ensure the ball moves in a diagonal direction after starting the game.
+-Verify that the ball bounces off the walls correctly.
+-Test if the ball bounces off the paddle when colliding from the bottom.
+-Check if the ball bounces off the paddle's sides when hitting the corners.
+-Verify that the ball's movement stops and the player loses a life when it reaches the bottom of the screen.
+
+Test Case 4: Brick Collision and Game Over Conditions
+-Test if the ball destroys bricks upon collision and updates the score accordingly.
+-Verify that the brick hit sound plays when the ball hits a brick.
+-Ensure the game continues until all bricks are destroyed.
+-Check if the game displays the menu screen correctly when the player wins.
+-Test if the game ends and displays the menu screen when the player loses all lives.
