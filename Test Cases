@@ -25,3 +25,38 @@ Test Case 4: Brick Collision and Game Over Conditions
 -Ensure the game continues until all bricks are destroyed.
 -Check if the game displays the menu screen correctly when the player wins.
 -Test if the game ends and displays the menu screen when the player loses all lives.
+
+Test Case 5: Power-Ups
+-Activate a power-up and verify its effect on the gameplay (e.g., increasing the paddle size, adding an extra ball).
+-Ensure that power-ups spawn randomly and are obtainable by the paddle.
+-Test if power-ups disappear after a certain time if not collected.
+-Verify that each power-up has a unique visual indicator when active.
+-Check if power-ups interact correctly with other game elements, such as bricks and the ball.
+
+Test Case 6: Special Bricks
+-Test the behavior of special bricks (e.g., unbreakable bricks, explosive bricks).
+-Verify that special bricks have distinct visual appearances.
+-Ensure that hitting an explosive brick causes a chain reaction, destroying nearby bricks.
+-Test if unbreakable bricks stop the ball but do not break upon collision.
+-Check if special bricks contribute to the score or have other gameplay effects.
+
+Test Case 7: Pause and Resume
+-Pause the game during gameplay and verify that all animations and movements stop.
+-Ensure that the pause menu displays options to resume, restart, or quit the game.
+-Test if the game resumes correctly from the paused state when selecting the resume option.
+-Check if the game restarts from the beginning when selecting the restart option.
+-Verify that selecting the quit option returns the player to the main menu.
+
+Test Case 8: Sound Effects
+-Test the volume control for sound effects and verify if it affects all game sounds uniformly.
+-Ensure that sound effects play at appropriate times (e.g., paddle movement, ball collision).
+-Check if muting sound effects mutes all game-related sounds without affecting background music.
+-Verify that sound effects do not overlap or cut off abruptly during gameplay.
+-Test if the game provides options to customize or disable specific sound effects individually.
+
+Test Case 9: Background Music
+-Ensure that background music starts playing upon entering the game.
+-Verify that the volume control affects the background music's volume.
+-Test if background music changes dynamically based on gameplay events (e.g., intensity increases during intense moments).
+-Check if the game provides options to change or disable background music.
+-Ensure that background music loops seamlessly without noticeable gaps.
