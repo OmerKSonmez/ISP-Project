@@ -33,12 +33,12 @@ Test Case 5: Power-Ups
 -Verify that each power-up has a unique visual indicator when active.
 -Check if power-ups interact correctly with other game elements, such as bricks and the ball.
 
-Test Case 6: Special Bricks
--Test the behavior of special bricks (e.g., unbreakable bricks, explosive bricks).
--Verify that special bricks have distinct visual appearances.
--Ensure that hitting an explosive brick causes a chain reaction, destroying nearby bricks.
--Test if unbreakable bricks stop the ball but do not break upon collision.
--Check if special bricks contribute to the score or have other gameplay effects.
+Test Case 6: Point Accumulation
+-Test the behavior of the different color bricks.
+-Verify that different color bricks each reward the player with the correct number of points.
+-Ensure that Red Bricks give 3 Points.
+-Ensure that Blue Bricks give 2 Points
+-Ensure that Black Bricks give 1 Point.
 
 Test Case 7: Pause and Resume
 -Pause the game during gameplay and verify that all animations and movements stop.
@@ -60,3 +60,8 @@ Test Case 9: Background Music
 -Test if background music changes dynamically based on gameplay events (e.g., intensity increases during intense moments).
 -Check if the game provides options to change or disable background music.
 -Ensure that background music loops seamlessly without noticeable gaps.
+
+Test Case 10: Game Start Screen
+-Ensure that the start game screen has nice visuals
+-Ensure that the "Start Game" button works on the title screen
+
