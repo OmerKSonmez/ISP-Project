@@ -48,7 +48,7 @@ Test Case ???: Power-Ups
 
 Test Case 12: Point Accumulation
 -Verify that different color bricks each reward the player with the correct number of points.
--Ensure that when a brick is hit the score increases
+-Ensure that when a brick is hit the score increases.
 
 Test Case 13: Pause
 -Pause the game during gameplay with spaceboard and verify that all animations and movements stop.
