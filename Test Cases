@@ -1,78 +1,74 @@
-Test Case 1: Initial Game Setup
--Ensure the game initializes correctly.
+Test Case 1: Initial Game Setup ☑
+-Ensure the game initializes correctly. ☑
 
-Test Case 2: Counters
--Confirm that the score and lives are initialized correctly.
+Test Case 2: Counters ☑
+-Confirm that the score and lives are initialized correctly. ☑
 
-Test Case 3: Brick Generation
--Ensure that the bricks are randomly generated and distributed across the screen.
+Test Case 3: Brick Generation ☑
+-Ensure that the bricks are randomly generated and distributed across the screen. ☑
 
-Test Case 4: Paddle and Ball
--Check if the paddle is positioned at the bottom center of the screen.
--Verify that the ball is positioned at the center of the screen.
+Test Case 4: Paddle and Ball ☑
+-Check if the paddle is positioned at the bottom center of the screen. ☑
+-Verify that the ball is positioned at the center of the screen. ☑
 
-Test Case 5: Paddle Movement
--Ensure the paddle reacts to the designated keyboard keys.
--Verify that the paddle's position remains unchanged when no arrow keys are pressed.
+Test Case 5: Paddle Movement ☑
+-Ensure the paddle reacts to the designated keyboard keys. ☑
+-Verify that the paddle's position remains unchanged when no arrow keys are pressed. ☑
 
-Test Case 6: Boundaries
--Try to move the paddle beyond the screen boundaries and ensure it stops at the edges.
--Confirm that the ball cannot move out of bounds.
+Test Case 6: Boundaries ☑
+-Try to move the paddle beyond the screen boundaries and ensure it stops at the edges. ☑
+-Confirm that the ball cannot move out of bounds. ☑
 
-Test Case 7: Ball Movement
--Ensure the ball moves in a diagonal direction after starting the game.
--Verify that the ball bounces off the walls correctly.
+Test Case 7: Ball Movement ☑
+-Ensure the ball moves in a diagonal direction after starting the game. ☑
+-Verify that the ball bounces off the walls correctly. ☑
 
-Test Case 8: Ball-Paddle Collision
--Test if the ball bounces off the paddle when colliding from the bottom or top.
--Check if the ball bounces off the paddle's sides when hitting the corners.
+Test Case 8: Ball-Paddle Collision ☑
+-Test if the ball bounces off the paddle when colliding from the bottom or top. ☑
+-Check if the ball bounces off the paddle's sides when hitting the corners. ☑
 
-Test Case 9: Player Lives
--Verify that the ball's movement stops and the player loses a life when it reaches the bottom of the screen.
--Test if the game ends and displays the menu screen when the player loses all lives.
+Test Case 9: Player Lives ☑
+-Verify that the ball's movement stops and the player loses a life when it reaches the bottom of the screen. ☑
+-Test if the game ends and displays the menu screen when the player loses all lives. ☑
 
-Test Case 10: Brick Collision and Game Over Conditions
--Test if the ball destroys bricks upon collision and updates the score accordingly.
--Verify that the brick hit sound plays when the ball hits a brick.
+Test Case 10: Brick Collision and Game Over Conditions ☑
+-Test if the ball destroys bricks upon collision and updates the score accordingly. ☑
+-Verify that the brick hit sound plays when the ball hits a brick. ☑
+ 
+Test Case 11: Winning Conditions ☑
+-Ensure the game continues until all bricks are destroyed. ☑
+-Check if the game displays the menu screen correctly when the player wins. ☑
 
-Test Case 11: Winning Conditions
--Ensure the game continues until all bricks are destroyed.
--Check if the game displays the menu screen correctly when the player wins.
+Test Case 12: Point Accumulation ☑
+-Verify that different color bricks each reward the player with the correct number of points. ☑
+-Ensure that when a brick is hit the score increases. ☑
 
-Test Case ???: Power-Ups
--Activate a power-up and verify its effect on the gameplay (e.g., increasing the paddle size, adding an extra ball).
--Ensure that power-ups spawn randomly and are obtainable by the paddle.
--Test if power-ups disappear after a certain time if not collected.
--Verify that each power-up has a unique visual indicator when active.
--Check if power-ups interact correctly with other game elements, such as bricks and the ball.
+Test Case 13: Pause ☑
+-Pause the game during gameplay with spaceboard and verify that all animations and movements stop. ☑
+-Ensure that the player can resume the game by pressing spaceboard again. ☑
 
-Test Case 12: Point Accumulation
--Verify that different color bricks each reward the player with the correct number of points.
--Ensure that when a brick is hit the score increases.
+Test Case 14: Resume ☑
+-Test if the game resumes correctly from the paused state when selecting the resume option. ☑
 
-Test Case 13: Pause
--Pause the game during gameplay with spaceboard and verify that all animations and movements stop.
--Ensure that the player can resume the game by pressing spaceboard again.
+Test Case 15: Restart Option ☑
+-Check if the game restarts from the beginning when selecting the restart option. ☑
 
-Test Case 14: Resume
--Test if the game resumes correctly from the paused state when selecting the resume option.
+Test Case 16: Sound Effects ☑
+-Test the volume control for sound effects and verify if it affects all game sounds uniformly. ☑
+-Ensure that sound effects play at appropriate times (e.g., paddle movement, ball collision). ☑
 
-Test Case 15: Restart Option
--Check if the game restarts from the beginning when selecting the restart option.
+Test Case 17: Background Music ☑
+-Ensure that background music starts playing upon entering the game. ☑
+-Verify that background music loops seamlessly without noticeable gaps. ☑
 
-Test Case 16: Sound Effects
--Test the volume control for sound effects and verify if it affects all game sounds uniformly.
--Ensure that sound effects play at appropriate times (e.g., paddle movement, ball collision).
+Test Case 18: Game Start Screen ☑
+-Ensure that the start game screen is the first thing that pops up upon running the game. ☑
+-Ensure that all buttons work as intended on the Game Start Screen. ☑
 
-Test Case 17: Background Music
--Ensure that background music starts playing upon entering the game.
--Verify that background music loops seamlessly without noticeable gaps.
+Test Case 19: Brick Outlines ☑
+-Make sure that the randomly generated bricks have grey outlines which sepearate them from each other and act as borders ☑
 
-Test Case 18: Game Start Screen
--Ensure that the start game screen is the first thing that pops up upon running the game.
--Ensure that all buttons work as intended on the Game Start Screen.
-
-Test Case 20: Ball Speed
--Ensure that the ball speeds up everytime a brick is hit to make the game slightly more dfficult.
--Verify that there is a limit to how fast the ball can go so the game doesn't become impossible.
+Test Case 20: Ball Speed ☑
+-Ensure that the ball speeds up everytime a brick is hit to make the game slightly more dfficult. ☑
+-Verify that there is a limit to how fast the ball can go so the game doesn't become impossible. ☑
 
