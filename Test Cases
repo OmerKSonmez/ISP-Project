@@ -47,11 +47,8 @@ Test Case ???: Power-Ups
 -Check if power-ups interact correctly with other game elements, such as bricks and the ball.
 
 Test Case 12: Point Accumulation
--Test the behavior of the different color bricks.
 -Verify that different color bricks each reward the player with the correct number of points.
-    -Ensure that Red Bricks give 3 Points.
-    -Ensure that Blue Bricks give 2 Points
-    -Ensure that Black Bricks give 1 Point.
+-Ensure that when a brick is hit, the score increases
 
 Test Case 13: Pause
 -Pause the game during gameplay with spaceboard and verify that all animations and movements stop.
