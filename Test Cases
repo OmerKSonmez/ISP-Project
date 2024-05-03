@@ -48,7 +48,7 @@ Test Case ???: Power-Ups
 
 Test Case 12: Point Accumulation
 -Verify that different color bricks each reward the player with the correct number of points.
--Ensure that when a brick is hit, the score increases
+-Ensure that when a brick is hit the score increases
 
 Test Case 13: Pause
 -Pause the game during gameplay with spaceboard and verify that all animations and movements stop.
@@ -71,4 +71,8 @@ Test Case 17: Background Music
 Test Case 18: Game Start Screen
 -Ensure that the start game screen is the first thing that pops up upon running the game.
 -Ensure that all buttons work as intended on the Game Start Screen.
+
+Test Case 20: Ball Speed
+-Ensure that the ball speeds up everytime a brick is hit to make the game slightly more dfficult.
+-Verify that there is a limit to how fast the ball can go so the game doesn't become impossible.
 
